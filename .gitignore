@@ -6,6 +6,7 @@ env/
 # Python cache
 __pycache__/
 *.pyc
+*.pyo
 
 # VS Code
 .vscode/
@@ -13,3 +14,37 @@ __pycache__/
 # OS files
 .DS_Store
 Thumbs.db
+
+# PointNet dataset
+PointNetDataset/
+*.npz
+
+# Model checkpoints / large ML weights
+checkpoints/
+*.pth
+
+# Point clouds / large generated LiDAR outputs
+*.ply
+
+# NumPy generated data
+*.npy
+*.npz
+
+# Generated CSV outputs
+*.csv
+
+# Generated images / visualizations
+*.png
+*.jpg
+*.jpeg
+
+
+# CARLA generated capture/prediction data
+carla_pointnet_capture/
+carla_pointnet_predictions/
+
+# Generated semantic-adaptive outputs
+semantic_adaptive_2_5d/
+
+# Generated capture metadata
+DepthCamera_*.json
